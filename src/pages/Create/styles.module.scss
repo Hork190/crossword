@@ -1,0 +1,39 @@
+.containerQuestion {
+    margin-bottom: 16px;
+    border: 1px solid #C1E5FF;
+    border-radius: 6px;
+    padding: 12px;
+    width: fit-content;
+    overflow: scroll;
+}
+.word {
+    margin-bottom: 12px;
+}
+.question {
+    margin-bottom: 12px;
+    max-width: 280px;
+}
+.tip {
+    margin-bottom: 12px;
+    max-width: 280px;
+}
+.detailLink {
+    margin-bottom: 12px;
+    max-width: 280px;
+}
+.button {
+    margin-top: 12px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #C1E5FF;
+    padding: 8px;
+    width: 120px;
+    color: #C1E5FF;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+        background-color: #C1E5FF;
+        border: 1px solid rgba(0,0,0,0);
+        color: #242544;
+    }
+}

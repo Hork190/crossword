@@ -1,0 +1,45 @@
+.container_Grid {
+    overflow: auto;
+    min-height: 700px;
+    min-width: 980px;
+    max-height: 700px;
+    max-width: 980px;
+}
+
+.row {
+    display: flex;
+    color: red;
+    position: relative;
+}
+
+.cell {
+    cursor: pointer;
+    position: relative;
+    border-radius: 4px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0,0,0,0);
+    width: 32px;
+    height: 32px;    
+    &:not(:last-child) {
+        border-right: 1px solid rgba(0,0,0,0);;
+    }
+    &.select {
+        background-color: #1A1B37;
+        width: 32px;
+        height: 32px;   
+        color: white;
+        border: 1px solid #2D9CCA
+    }
+}
+
+.cellNumber {
+    position: absolute;
+    font-size: 6px;
+    top: 4px;
+    left: 4px;
+    opacity: 0.6;
+    cursor: pointer;
+}

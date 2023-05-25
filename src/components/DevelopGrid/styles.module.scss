@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    color: red;
+    position: relative;
+}
+
+.cell {
+    color: blue;
+    border:1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    &:not(:last-child) {
+        border-right: none;
+    }
+    &.select {
+        background-color: blue;
+        color: white
+    }
+}

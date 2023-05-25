@@ -1,0 +1,33 @@
+.container_Questions {
+    margin-left: 16px;
+    display: flex;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.columnQuesionsContainer {
+    &:not(:last-child) {
+        margin-right: 12px;
+    }
+}
+.columnQuesions {
+    max-height: 680px;
+    overflow: auto;
+}
+.containerQuestion {
+    &:not(:last-child) {
+        margin-bottom: 12px;
+    }
+    &.select {
+        color: #E67E22;
+        transform: size;
+    }
+    &.accepted {
+        text-decoration: line-through;
+    }
+}

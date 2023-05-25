@@ -1,0 +1,26 @@
+.button {
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #C1E5FF;
+    padding: 8px;
+    width: 120px;
+    color: #C1E5FF;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+        background-color: #C1E5FF;
+        border: 1px solid rgba(0,0,0,0);
+        color: #242544;
+    }
+}
+
+input {
+    background-color: rgba(0,0,0,0);
+    outline: none;
+    border: 1px solid #C1E5FF;
+    color: #C1E5FF;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
