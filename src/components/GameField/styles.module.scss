@@ -1,0 +1,12 @@
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+.gridContent {
+    overflow: auto;
+    min-height: 500px;
+    min-width: 980px;
+    max-height: 500px;
+    max-width: 980px;
+}

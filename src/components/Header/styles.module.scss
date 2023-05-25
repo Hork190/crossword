@@ -1,0 +1,36 @@
+.container_header {
+    position: relative;
+    display: flex;
+    width: calc(100% - 96px);
+    background-color: #1A1B37;
+    justify-content: space-between;
+    padding: 24px 48px;
+    padding-right: 48px;
+    align-items: center;
+}
+
+.navigate {
+    height: 100%;
+    cursor: pointer;
+    &:hover {
+        color: #E67E22;
+    }
+    &:not(:last-child) {
+        margin-right: 32px;
+    }
+    &.disabled {
+        cursor: default !important;
+        color: rgba(255,255,255,0.3)
+    }
+}
+
+
+.content,
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+   cursor: pointer;
+}
